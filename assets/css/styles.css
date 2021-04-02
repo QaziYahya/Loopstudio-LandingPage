@@ -123,6 +123,8 @@
 
 .btn.btn-outline-primary.btn-section-b {
   border-radius: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .row.section-b-row-2 {
@@ -239,14 +241,6 @@
 @media (max-width: 414px) {
   .row.section-b-row-1 {
     justify-content: center!important;
-  }
-}
-
-@media (max-width: 414px) {
-  .section-b-col-1, .section-b-col-2, .section-b-col-3, .section-b-col-4, .section-b-col-5, .section-b-col-6, .section-b-col-7, .section-b-col-8 {
-    max-width: 350px;
-    background-size: cover!important;
-    background-position: center!important;
   }
 }
 
